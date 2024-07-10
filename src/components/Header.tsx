@@ -1,6 +1,7 @@
 import { TfiEmail } from "react-icons/tfi";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -35,7 +36,9 @@ const Header = () => {
         </a>
       </div>
       <div className="flex justify-center py-2 px-3 bg-green-800 mt-12 text-white shadow rounded-sm font-medium cursor-pointer">
-        <a href="">See Projects</a>
+        <Link to="projects" smooth={true} duration={500}>
+          See Projects
+        </Link>
       </div>
     </header>
   );
