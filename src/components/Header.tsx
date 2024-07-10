@@ -35,11 +35,14 @@ const Header = () => {
           <FaLinkedinIn className="w-6 h-6" />
         </a>
       </div>
-      <div className="flex justify-center py-2 px-3 bg-green-800 mt-12 text-white shadow rounded-sm font-medium cursor-pointer">
-        <Link to="projects" smooth={true} duration={500}>
-          See Projects
-        </Link>
-      </div>
+      <Link
+        to="projects1"
+        smooth={true}
+        duration={500}
+        className="flex justify-center py-2 px-3 bg-slate-800 mt-12 text-white shadow rounded-sm font-medium cursor-pointer"
+      >
+        See Projects
+      </Link>
     </header>
   );
 };

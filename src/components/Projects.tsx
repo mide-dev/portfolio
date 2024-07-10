@@ -5,7 +5,7 @@ import { Element } from "react-scroll";
 const Projects = () => {
   return (
     <section>
-      <Element name="projects">
+      <Element name="projects1">
         <h2>Projects</h2>
         <div className="flex justify-center pt-3">
           <ProjectCarousel data={projects} />
