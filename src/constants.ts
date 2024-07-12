@@ -98,7 +98,7 @@ export const projects = [
   {
     title: "InnovateX",
     technology: "PHP, Javascript, HTML, CSS, MySQL, Figma",
-    desc: "An event booking website for tech, business, and entrepreneurship events. The challenge was to design and build this entirely from scratch using vanilla tools. This project was the final graded project for the web development module at Northumbria University.",
+    desc: "I developed InnovateX, a full-stack event booking website for tech, business, and entrepreneurship events. The project features user profiles, event booking functionalities, and a complete end-to-end system. The challenge was to design and build this entirely from scratch using vanilla tools such as HTML, CSS, JavaScript, PHP, and MySQL. This project served as the final graded project for the web development module at Northumbria University. Additionally, I deployed the application on AWS EC2",
     website: "https://w22028079.nuwebspace.co.uk/KF7013/content/index.php",
     liveDemo: "",
     github: "https://github.com/mide-dev/InnovateX",
