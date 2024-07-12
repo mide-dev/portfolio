@@ -89,7 +89,7 @@ export const projects = [
   {
     title: "Sudoku",
     technology: "Java",
-    desc: "Developed a Sudoku game with a GUI, featuring undo, save, clear, and load functions, along with unit testing and documentation. This project was the final graded project for the OOP module at Northumbria University.",
+    desc: "Developed a Sudoku game with a graphical user interface (GUI) that includes features such as undo, save, clear, and load functions. The project also involved unit testing and thorough documentation. One of the main challenges, beyond building the game logic, was ensuring the UI was automatically updated with changes made in the main code and this was addressed by implementing the observer pattern.",
     website: "https://github.com/mide-dev/Sudoku",
     liveDemo: "",
     github: "https://github.com/mide-dev/Sudoku",
