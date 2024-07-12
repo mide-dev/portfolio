@@ -90,7 +90,7 @@ export const projects = [
     title: "Sudoku",
     technology: "Java",
     desc: "Developed a Sudoku game with a GUI, featuring undo, save, clear, and load functions, along with unit testing and documentation. This project was the final graded project for the OOP module at Northumbria University.",
-    website: "",
+    website: "https://github.com/mide-dev/Sudoku",
     liveDemo: "",
     github: "https://github.com/mide-dev/Sudoku",
     images: [s1, s3, s4, s5],
@@ -101,7 +101,7 @@ export const projects = [
     desc: "An event booking website for tech, business, and entrepreneurship events. The challenge was to design and build this entirely from scratch using vanilla tools. This project was the final graded project for the web development module at Northumbria University.",
     website: "https://w22028079.nuwebspace.co.uk/KF7013/content/index.php",
     liveDemo: "",
-    github: "https://github.com/mide-dev/Sudoku",
+    github: "https://github.com/mide-dev/InnovateX",
     images: [i1, i2, i3, i7, i8, i9, i10],
   },
 ];
