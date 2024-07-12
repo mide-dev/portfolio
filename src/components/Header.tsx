@@ -2,6 +2,7 @@ import { TfiEmail } from "react-icons/tfi";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { Link } from "react-scroll";
+import Bio from "./Bio";
 
 const Header = () => {
   return (
@@ -11,13 +12,24 @@ const Header = () => {
           <h1>Mide</h1>
           <h1>Ibraheem</h1>
         </span>
-        <p className="max-w-[450px] font-medium pt-5 lg:pt-0 text-[16px]">
-          I'm a sofware engineer with a background in Computer Science from
-          Northumbria University, UK. Topics I find fascinating includes
-          blockchain, LLMs, and Distributed systems. Outside of tech, you’ll
-          find me listening to music, reading books on history & evolution or
-          playing chess. 🚀
-        </p>
+
+        <Bio
+          text="Hi, I’m Mide, a tech enthusiast passionate about developing innovative
+          and efficient software solutions. My journey started in 2021, and I’ve
+          enjoyed every step of it. I interned at Infiniti Systems, where I
+          worked as part of a team to develop and maintain internal dashboards
+          and payroll software. I recently completed my MSc in Computer Science
+          at Northumbria University 🎓, where I focused on Java OOP, Web
+          Programming, System Design, and Database Design. Alongside my studies,
+          I worked part-time as an AI Language Model Trainer, focusing on code
+          correctness, efficiency, and best practices. I have experience with
+          Java, JavaScript, Python, PHP, SQL, TypeScript, React, Django, and
+          Tailwind. See some of my projects - https://midee.dev/. Outside of
+          tech, I enjoy listening to music 🎵, playing chess ♟️, watching anime
+          🎥, and reading historical books 📚. I’m always open to connecting and
+          exploring new opportunities. Let’s chat and see how we can
+          collaborate!"
+        />
       </div>
 
       <div className="pt-8 flex gap-x-5">
