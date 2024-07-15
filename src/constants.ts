@@ -21,7 +21,7 @@ import i7 from "./assets/i7.png";
 import i8 from "./assets/i8.png";
 import i9 from "./assets/i9.png";
 import i10 from "./assets/i10.png";
-import weba from "./assets/weba.png";
+import webac from "./assets/webac.png";
 
 export const experience = [
   {
@@ -99,7 +99,7 @@ export const projects = [
     website: "https://github.com/mide-dev/GPT_LLAMA_Web_Accessibility_Code",
     liveDemo: "",
     github: "https://github.com/mide-dev/GPT_LLAMA_Web_Accessibility_Code",
-    images: [weba],
+    images: [webac],
   },
   {
     title: "Desktop Application - Sudoku",
