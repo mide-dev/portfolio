@@ -6,10 +6,13 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header />
       <Experience />
       <Education />
-      <Projects />
+      <Projects /> */}
+      <div className="grid place-content-center">
+        <h1>RE-BUILD ONGOING...</h1>
+      </div>
     </>
   );
 }
