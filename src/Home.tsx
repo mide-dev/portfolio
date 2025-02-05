@@ -24,7 +24,7 @@ const Home = () => {
         </p>
         <div className="mt-4 flex gap-6">
           <NavLink
-            to="https://drive.google.com/file/d/1GWYZRYH5acHfnwllxCtWICjFJ-ccsKWG/view?usp=sharing"
+            to="https://drive.google.com/file/d/1_UhWX16kJ8mp-8VjWSuoVNCQ7y-IBItU/view?usp=sharing"
             target="_blank"
           >
             <button className="mt-8 cursor-pointer rounded-lg border border-gray-400 px-3 py-2 shadow">
