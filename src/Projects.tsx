@@ -11,7 +11,7 @@ const Projects = () => {
         <Navbar />
 
         <h1 className="pt-12">Projects</h1>
-        <div className="card-grid mt-24 w-full">
+        <div className="card-grid mt-24 w-full justify-items-center">
           {cardContent.map((card) => (
             <CardComp key={card.id} {...card} />
           ))}
