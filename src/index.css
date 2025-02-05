@@ -1,3 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300..800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  color: rgb(85, 85, 85);
+  font-family: "JetBrains Mono", monospace;
+  max-width: 90%;
+  margin-inline: auto;
+}
+
+body {
+  @apply dark:bg-[#131418] dark:text-gray-100 md:max-w-[900px];
+}
+
+h1 {
+  @apply text-2xl;
+}
+
+p {
+  @apply max-w-[450px] pt-3 text-center text-[14px] font-thin;
+}
+
+.card-grid {
+  --min: 30ch;
+  --gap: 1rem;
+
+  display: grid;
+  grid-gap: var(--gap);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
+}
+
+button {
+  @apply hover:border-yellow-500 hover:text-yellow-500 hover:shadow-md dark:hover:text-yellow-500;
+}
