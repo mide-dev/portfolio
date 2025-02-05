@@ -1,7 +1,14 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
-const CardComp = ({ title, image, description, webapp, github, Tech }) => {
+type Cardprop = {
+  title: string;
+  image: string;
+  description: string;
+  webapp: string | "";
+  github: string | "";
+};
+
+const CardComp = ({ title, image, description, webapp, github }: Cardprop) => {
   return (
     <div className="card-grid max-w-64 overflow-hidden rounded-lg border border-gray-300 bg-transparent text-center">
       {/* <img src={image} alt={title} className="w-full object-cover" /> */}

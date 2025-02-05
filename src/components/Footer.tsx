@@ -1,5 +1,4 @@
 import { Linkedin, Github, Twitter } from "lucide-react";
-import React from "react";
 import { NavLink } from "react-router-dom";
 
 type Props = {

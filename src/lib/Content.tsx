@@ -12,6 +12,7 @@ export const cardContent = [
     description:
       "Fullstack restaurant review App, covering over 20k restaurants in London with a focus on their cleanliness using official UK Health records.",
     webapp: "https://cleanbites.uk/",
+    github: "",
   },
   {
     id: 2,
